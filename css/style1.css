@@ -1,16 +1,27 @@
-<!DOCTYPE html>
-<html lang="vi">
-	<head>
-		<title>làm web </title>
-		<meta charset = "utf-8">
-	</head>
-	<body>
-		<ul>
-			<li>	
-				<a href = "html/page1.html">
-                                thông tin cá nhân
-				</a>
-			</li>
-		</ul>
-	</body>
-</html>
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+	background-color: transparent;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+body {
+    background-image: url("https://faceinch.vn/upload/elfinder/anh-bai-blog/nen-phong-xanh-anh-the-1.jpg");
+	color: white;
+}
+h1, h2, p {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+	text-shadow: 2px 2px 5px black;
+}
+p {
+    color: white;
+    font-weight: bold;
+}
+	
